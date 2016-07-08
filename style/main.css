@@ -1,0 +1,58 @@
+/* Width breakpoints Styles */
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+      width: 750px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+      width: 970px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+      width: 100% !important;
+      max-width: 1400px;
+  }
+}
+
+/* Main Styles */
+body {
+  background: white;
+}
+
+p {
+  color: #333;
+}
+
+/* Nav Styles */
+.navbar {
+  background-color: black;
+  border-radius: 0;
+  border: none;
+}
+
+/* Content Styles */
+.profile {
+  margin-bottom: 2em;
+}
+
+.photo {
+  width: 100%;
+  margin-bottom:1em;
+}
+
+/* Footer Styles */
+footer {
+  margin-bottom: 2em;
+}
+
+footer .nav li a {
+  padding-top: 0;
+  padding-bottom: 0;
+}
